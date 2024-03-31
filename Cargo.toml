@@ -1,8 +1,11 @@
 [package]
 name = "yabe"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT OR Apache-2.0"
+description = "Integer bitcasts through the use of Mul and autoref specialization"
+repository = "https://github.com/Kolsky/yabe"
+categories = ["algorithms", "no-std::no-alloc"]
+keywords = ["cast", "convert", "integer", "extend", "truncate"]
 
 [dependencies]
